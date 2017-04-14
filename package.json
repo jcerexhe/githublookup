@@ -1,0 +1,11 @@
+{
+  "name": "githublookup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jamie Cerexhe",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "prompt": "^1.0.0"
+  }
+}
