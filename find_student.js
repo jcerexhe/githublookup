@@ -4,7 +4,6 @@ var prompt = require('prompt');
 function getStudent(github_login) {
 	axios.get(`https://api.github.com/users/${github_login}`)
 	  .then(function (response) {
-	    // console.log(response['data']);
 	    console.log('Username:', response['data'].login);
 	    console.log('Name:', response['data'].name);
 	    console.log('Public repos:', response['data'].public_repos);

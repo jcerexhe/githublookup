@@ -6,12 +6,18 @@ Check on the GitHub accounts of my students. I want to be able to quickly look u
 
 1. Install Node.js
 
-2. In your terminal run code below and follow instructions 
+2a. To get class list run
 
 ```
-$ node index.js
+$ node class.js
+```
+
+2b. To get student run
+
+```
+$ node find_student.js
 ```
 
 ### Future Additions
 
-- Class snapshot
+- GitHub API authentication to remove query limit
