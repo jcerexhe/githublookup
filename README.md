@@ -6,7 +6,7 @@ Check on the GitHub accounts of my students. I want to be able to quickly look u
 
 1. Install Node.js
 
-2. In your terminal run and follow instructions 
+2. In your terminal run code below and follow instructions 
 
 ```
 $ node index.js
